@@ -17,7 +17,7 @@ const Footer = () => {
               potential.
             </p>
 
-            <p className="text-muted-foreground text-sm md:text-base leading-relaxed max-w-2xl mx-auto mb-6">
+            <p className="text-muted-foreground text-sm md:text-base leading-relaxed max-w4xl mx-auto mb-6">
               If you're a student, a university, a brand looking to partner, or simply someone who believes in what
               we're building, we'd love to hear from you!
             </p>

@@ -5,14 +5,12 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="py-16 md:py-24 border-t border-border/50">
+    <footer id="footer" className="py-16 md:py-24 border-t border-border/50">
       <div className="container">
         <div className="max-w-5xl mx-auto">
           {/* Contact Section */}
           <div className="text-center mb-16">
-            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-8">
-              Contact us
-            </h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-8">Contact us</h2>
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10">
               {/* Phone */}
@@ -65,30 +63,19 @@ const Footer = () => {
 
             {/* Links */}
             <div className="flex items-center gap-6 text-sm">
-              <a
-                href="#"
-                className="text-muted-foreground hover:text-foreground transition-colors"
-              >
+              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                 Terms
               </a>
-              <a
-                href="#"
-                className="text-muted-foreground hover:text-foreground transition-colors"
-              >
+              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                 Privacy
               </a>
-              <a
-                href="#"
-                className="text-muted-foreground hover:text-foreground transition-colors"
-              >
+              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                 Cookie policy
               </a>
             </div>
 
             {/* Copyright */}
-            <p className="text-sm text-muted-foreground">
-              © {currentYear} Prentix
-            </p>
+            <p className="text-sm text-muted-foreground">© {currentYear} Prentix</p>
           </div>
         </div>
       </div>

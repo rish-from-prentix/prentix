@@ -16,9 +16,8 @@ const Footer = () => {
               We're on a mission to close the employability gap at scale by helping every student realise their full
               potential.
               <br />
-              If you're a student, a university, a brand looking to partner, or simply someone who believes in what
-              we're building, <br />
-              we'd love to hear from you!
+              If you're a student, a university, a brand looking to partner, <br />
+              or simply someone who believes in what we're building, we'd love to hear from you!
             </p>
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10">

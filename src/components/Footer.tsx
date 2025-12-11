@@ -12,11 +12,6 @@ const Footer = () => {
           <div className="text-center mb-16">
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">Contact us</h2>
 
-            <p className="text-muted-foreground text-sm md:text-base leading-relaxed max-w-4xl mx-auto mb-6">
-              We're on a mission to close the employability gap at scale by helping every student realise their full
-              potential.
-            </p>
-
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10">
               {/* Phone */}
               <a
@@ -54,6 +49,11 @@ const Footer = () => {
               </a>
             </div>
           </div>
+
+          <p className="text-muted-foreground text-sm md:text-base leading-relaxed max-w-4xl mx-auto mb-6">
+            We're on a mission to close the employability gap at scale by helping every student realise their full
+            potential.
+          </p>
 
           {/* Divider */}
           <div className="h-px bg-border/50 mb-12" />

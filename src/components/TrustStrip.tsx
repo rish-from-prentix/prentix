@@ -5,7 +5,7 @@ const TrustStrip = () => {
     <section className="py-20">
       <div className="container flex items-center justify-center gap-10">
         <span className="text-muted-foreground text-sm font-bold tracking-widest uppercase">Backed by</span>
-        <img src={backersLogo} alt="ISB DLabs and AIC - Indian School of Business" className="h-20 md:h-24" />
+        <img src={backersLogo} alt="ISB DLabs and AIC - Indian School of Business" className="h-16 md:h-20" />
       </div>
     </section>
   );

@@ -24,21 +24,16 @@ const SuccessScreen = ({ hasSelectedInterests, onClose }: SuccessScreenProps) =>
         </div>
 
         {/* Heading */}
-        <h1
-          id="success-title"
-          className="text-4xl md:text-5xl font-bold text-foreground mb-6"
-        >
+        <h1 id="success-title" className="text-4xl md:text-5xl font-bold text-foreground mb-6">
           You're all set!
         </h1>
 
         {/* Subtext */}
-        <p className="text-lg text-muted-foreground mb-10 leading-relaxed">
-          {subtext}
-        </p>
+        <p className="text-lg text-muted-foreground mb-10 leading-relaxed">{subtext}</p>
 
         {/* LinkedIn CTA */}
         <a
-          href="https://www.linkedin.com/company/prentix"
+          href="https://www.linkedin.com/in/rishik-reddy2408/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors mb-10"
@@ -49,10 +44,7 @@ const SuccessScreen = ({ hasSelectedInterests, onClose }: SuccessScreenProps) =>
 
         {/* Close button */}
         <div>
-          <button
-            onClick={onClose}
-            className="btn-primary px-12 py-4 text-base font-semibold"
-          >
+          <button onClick={onClose} className="btn-primary px-12 py-4 text-base font-semibold">
             Close
           </button>
         </div>

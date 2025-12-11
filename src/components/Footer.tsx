@@ -14,8 +14,8 @@ const Footer = () => {
 
             <p className="text-muted-foreground text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-6">
               We're on a mission to close the employability gap at scale by helping every student realise their full
-              potential. If you're a student, a university, a brand looking to partner, or simply someone who believes
-              in what we're building, we'd love to hear from you!
+              potential. \n If you're a student, a university, a brand looking to partner, or simply someone who
+              believes in what we're building, we'd love to hear from you!
             </p>
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10">
